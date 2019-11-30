@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="CassandraCSharpDriver" Version="3.12.0" />
+    <PackageReference Include="IronPdf" Version="2019.8.8.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>

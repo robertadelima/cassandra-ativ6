@@ -22,7 +22,7 @@ namespace cassandra_ativ6.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=localhost;database=invoices_system;uid=root;pwd=061191");
+                optionsBuilder.UseMySql("server=localhost;database=invoices_system;uid=root;pwd=");
             }
         }
 
